@@ -83,10 +83,12 @@ section {
 }
 
 .main-content {
-
-  height: 100vh;
+  height: 105vh;
   background-color: black;
-
+}
+.main2-content {
+  height: 105vh;
+  background-color: #384358;
 }
 
 /* .content{
@@ -154,10 +156,6 @@ section {
   padding-left: 200px;
   font-family: "dela gothic one";
 }
-
-
-
-
 .sticky {
   position: fixed;
   top: 0;
@@ -167,5 +165,23 @@ section {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+.about-content{
+ height: 60vh;
+ width: 40%;
+ background-color: #444c5168;
+ color: aliceblue;
+ padding: 90px;
+ margin-left: 100px;
+ font-family: 'Poiret One', cursive;
+ font-size: 25px;
+ box-shadow: 2px 2px 50px 10px #000000;
+ display: inline-flex;
+ margin-top: 100px;
+}
+.about-image{
+  display: flex;
+  float: right;
+  padding-top: 140px;
 }
 

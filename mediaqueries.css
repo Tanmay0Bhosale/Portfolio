@@ -84,8 +84,31 @@
         height: 175vh;
         background-color: black;
       }
+      .main2-content {
+        height: 200vh;
+        background-color: black;
+      }
       .image-right {
         padding-top: 10px;
         float: right;
-      }     
+      }    
+      .main2-content {
+        height: 105vh;
+        background-color: #384358;
+      }
+      .about-content{
+        width: 80%;
+        height: 85vh;
+        font-family: 'Poiret One', cursive;
+        font-size: 20px;
+        padding: 0px;
+        margin: 20px;
+        padding: 20px;
+        
+       } 
+       .about-image{
+        display: flex;
+        float: right;
+    
+      }
 }
