@@ -17,26 +17,27 @@
     href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Dela+Gothic+One&family=Lexend:wght@500&family=Onest:wght@200&display=swap"
     rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Dosis:600' rel='stylesheet' type='text/css'>
+  
 </head>
 
 <body>
-  <div>
-    <nav>
+  <div id="nav">
+    <nav >
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
       <label><img class="logo" style="height:50px;" src="logo.png"></label>
       <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Feedback</a></li>
       </ul>
     </nav>
   </div>
-  <div class="main-content">
+  <div class="main-content" id="home">
     <span class="left-content">
       <div class="content">
         <h1 class="big-heading">HEY THERE!
@@ -55,6 +56,10 @@
       <div class="image-right"><img src="my-logo.png" alt=""></div>
     </span>
   </div>
+  <div class="main-content" id="about">
+    
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
