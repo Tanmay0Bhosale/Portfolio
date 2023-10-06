@@ -90,6 +90,11 @@ section {
   height: 105vh;
   background-color: #384358;
 }
+.main3-content {
+  height: 200vh;
+  background-color: #212f4b;
+  padding-top: 100px;
+}
 
 /* .content{
     color: rgb(170,178,186);
@@ -183,5 +188,39 @@ section {
   display: flex;
   float: right;
   padding-top: 140px;
+}
+.container-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 32%;
+  padding-bottom: 32%; /* Same as width, sets height */
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  position: static;
+  background-color: #73797f;
+  height: 20px;
+}
+.image-skills{
+  padding-left: 120px;
+  padding-top: 50px;
+}
+.skill-text{
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #E44D26 29%,
+      #2062AF 67%,
+      #F0C724 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
 }
 

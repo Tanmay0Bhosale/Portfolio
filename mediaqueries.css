@@ -8,7 +8,7 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        background: #080a0b;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -107,8 +107,7 @@
         
        } 
        .about-image{
-        display: flex;
-        float: right;
-    
+        visibility: hidden;
+        
       }
 }
