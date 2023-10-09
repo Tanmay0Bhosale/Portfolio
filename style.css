@@ -86,13 +86,15 @@ section {
   height: 105vh;
   background-color: black;
 }
+
 .main2-content {
   height: 105vh;
-  background-color: #384358;
+  background-color: #000000;
 }
+
 .main3-content {
-  height: 200vh;
-  background-color: #212f4b;
+  height: 250vh;
+  background-color: #000000;
   padding-top: 100px;
 }
 
@@ -161,6 +163,7 @@ section {
   padding-left: 200px;
   font-family: "dela gothic one";
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -168,27 +171,30 @@ section {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
 }
-.about-content{
- height: 60vh;
- width: 40%;
- background-color: #444c5168;
- color: aliceblue;
- padding: 90px;
- margin-left: 100px;
- font-family: 'Poiret One', cursive;
- font-size: 25px;
- box-shadow: 2px 2px 50px 10px #000000;
- display: inline-flex;
- margin-top: 100px;
+
+.about-content {
+  height: 60vh;
+  width: 40%;
+  background-color: #444c5168;
+  color: aliceblue;
+  padding: 90px;
+  margin-left: 100px;
+  font-family: 'dela gothic one', cursive;
+  font-size: 20px;
+  box-shadow: 2px 2px 50px 10px #000000;
+  display: inline-flex;
+  margin-top: 100px;
 }
-.about-image{
+
+.about-image {
   display: flex;
   float: right;
   padding-top: 140px;
 }
+
 .container-skills {
   display: flex;
   flex-wrap: wrap;
@@ -197,17 +203,22 @@ section {
 
 .item {
   width: 32%;
-  padding-bottom: 32%; /* Same as width, sets height */
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  padding-bottom: 32%;
+  /* Same as width, sets height */
+  margin-bottom: 2%;
+  /* (100-32*3)/2 */
   position: static;
-  background-color: #73797f;
-  height: 20px;
+  background-color: #534d4db0;
+  height: 0px;
+  box-shadow: 2px 2px 50px 10px #000000;
 }
-.image-skills{
+
+.image-skills {
   padding-left: 120px;
   padding-top: 50px;
 }
-.skill-text{
+
+.skill-text {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg,
       #231557 0%,
@@ -222,5 +233,8 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
+  font-family: dela gothic one;
+  padding-left: 600px;
+  padding-bottom: 100px;
+  font-size: 50px;
 }
-

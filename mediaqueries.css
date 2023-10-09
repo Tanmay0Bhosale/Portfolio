@@ -83,31 +83,74 @@
       .main-content {
         height: 175vh;
         background-color: black;
+        width: 404.8px;
       }
       .main2-content {
-        height: 200vh;
+        height: 115vh;
         background-color: black;
+        width: 404.8px;
+      }
+      .main3-content{
+        background-color: black;
+        width: 404.8px;
+        padding-top: 0px;
+        height:600vh
       }
       .image-right {
         padding-top: 10px;
         float: right;
       }    
-      .main2-content {
-        height: 105vh;
-        background-color: #384358;
-      }
       .about-content{
         width: 80%;
         height: 85vh;
-        font-family: 'Poiret One', cursive;
-        font-size: 20px;
+        font-family: 'dela gothic one', cursive;
+        font-size: 15px;
         padding: 0px;
         margin: 20px;
         padding: 20px;
         
        } 
        .about-image{
-        visibility: hidden;
+        height: 10px;
+        width: 10px;
+      }
+      .container-skills {
+        display: block;
+        padding-top: 0px;
+      }
+      .image-skills{
+        width: 5px;
+        height: 5px;
+        float: left;
         
+      }
+      .item {
+        width: 400.8px;
+        height: 250px;
+        padding-top: 0px;
+        margin-top:20px;
+        background-color:#534d4db0;
+        box-shadow: 0px;
+      }
+      .skill-text {
+        text-transform: uppercase;
+        background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #E44D26 29%,
+            #2062AF 67%,
+            #F0C724 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 4s linear infinite;
+        font-family: dela gothic one;
+        padding-left: 150px;
+        padding-bottom: 50px;
+        font-size:20px;
+        padding-top: 50px;
       }
 }
