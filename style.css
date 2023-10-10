@@ -3,7 +3,9 @@
   margin: 0;
 
 }
-
+html{
+  scroll-behavior: smooth;
+}
 nav {
   background: #aab2ba;
   height: 80px;
